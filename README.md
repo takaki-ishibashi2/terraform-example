@@ -2,7 +2,7 @@
 
 ## Installation
 
-[Binary Pckg Here](https://www.terraform.io/downloads.html)
+[Binary Pkg Here](https://www.terraform.io/downloads.html)
 
 ## Add Binary Path
 ```
