@@ -4,9 +4,8 @@
 [here](git@github.com:takaki-ishibashi2/terraform-example.git)
 
 ## Add PATH
-Add PATH that there is terraform binary
 ```
-// [e.g.] vim ~/.bash_profile
+// For example, Terraform-binary is in ./Applications-dir
 export PATH=${PATH}:/Users/takaki.ishibashi/Applications
 ```
 
