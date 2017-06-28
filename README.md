@@ -1,11 +1,12 @@
 # terraform-example
 
-## Installation&Unzip
-[here](git@github.com:takaki-ishibashi2/terraform-example.git)
+## Installation
 
-## Add PATH
+[Binary Pckg Here](https://www.terraform.io/downloads.html)
+
+## Add Binary Path
 ```
-// For example, Terraform-binary is in ./Applications-dir
+// e.g. When terraform binary is in ./Applications directory.
 export PATH=${PATH}:/Users/takaki.ishibashi/Applications
 ```
 
@@ -16,8 +17,9 @@ $ terraform
 // Show Usage Message
 ```
 
-## Example/ElasticBeansTalk_APP & _ENV
+## Example(Create for ElasticBeansTalk APP and ENV)
 ```
+// touch example.tf
 variable "access_key" {
   default = "<access key value>"
 }
@@ -54,6 +56,12 @@ resource "aws_elastic_beanstalk_environment" "example" {
     value = "subnet-1b0e736d"
   }
 }
+```
+
+## Apply
+```
+$ terraform plan
+$ terraform apply
 ```
 
 ## Next
